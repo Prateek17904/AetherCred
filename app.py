@@ -7,7 +7,7 @@ import os
 
 # Page configuration
 st.set_page_config(
-    page_title="LoanQuery AI",
+    page_title="Aethercred ",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -246,7 +246,7 @@ def display_chat_message(role, content, avatar="🤖"):
     else:
         st.markdown(f"""
         <div class="chat-message assistant-message">
-            <strong>{avatar} LoanQuery AI:</strong><br>
+            <strong>{avatar} Aethercred:</strong><br>
             {content}
         </div>
         """, unsafe_allow_html=True)
@@ -271,7 +271,7 @@ def main():
         return
     
     # Header
-    st.markdown('<h1 class="main-header">🤖 LoanQuery AI</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🤖 Aethercred AI</h1>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">Get AI-powered insights about loan approval patterns using advanced RAG technology</p>', unsafe_allow_html=True)
     
     # API Key Configuration
@@ -323,7 +323,7 @@ def main():
         if "messages" not in st.session_state:
             st.session_state.messages = []
             # Add welcome message
-            welcome_msg = """👋 Welcome! I'm LoanQuery AI, your intelligent assistant for loan analysis. 
+            welcome_msg = """👋 Welcome! I'm Aethercred AI, your intelligent assistant for loan analysis. 
 
 I can analyze loan approval patterns and answer questions like:
 • Why are some applications denied?
